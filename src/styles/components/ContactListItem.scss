@@ -1,0 +1,61 @@
+.contact-card {
+    display: flex;
+    width: 278px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-bottom: 10px solid green;
+    min-height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.contact-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    width :100px;
+}
+
+.contact-short-summary {
+    padding: 2px 16px;
+    width: 145px;
+}
+
+.contact-short-summary h5 {
+    margin-bottom:0
+}
+.contact-short-summary small {
+    display:block;
+}
+.contact-short-summary .jobTitle {
+    font-style: italic;
+}
+
+.contact-full-summary {
+    dl {
+        margin-bottom:50px;
+    }
+
+    dl dt {
+        float:left; 
+        font-weight:bold; 
+        margin-right:10px; 
+        padding:5px;  
+        width:100px; 
+    }
+     
+    dl dd {
+        margin:2px 0; 
+    }
+}
+
+
+.contact-card-action {
+
+    .icon {
+        width: 20px;
+        height:20px;
+    }
+}

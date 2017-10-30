@@ -1,0 +1,30 @@
+{
+
+    "extends": "default",
+    "parserOptions": {
+        "ecmaVersion" : 6
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "rules" :{
+     "comma-dangle": [
+         "error",
+         "never"
+     ] ,
+     "no-unused-vars": [
+         "error",
+         {
+             "vars": "local",
+             "args": "none"
+         }
+     ],
+     "indent": ["error", 4],
+     "react/jsx-filename-extension": 0,
+     "react/jsx-indent": 0,
+     "react/jsx-boolean-value": 0,
+     "jsx-a11y/anchor-is-valid": 0
+    }
+}
