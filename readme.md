@@ -5,7 +5,6 @@ Contact Management System
 
 ``
 checkout repository
-
 ``
 
 ``
@@ -18,4 +17,4 @@ yarn install
 
 ``
 yarn run dev-server   
-''
+``
